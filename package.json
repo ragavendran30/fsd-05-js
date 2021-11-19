@@ -1,0 +1,19 @@
+{
+  "name": "fsd-05",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ragavendran30/fsd-05-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ragavendran30/fsd-05-js/issues"
+  },
+  "homepage": "https://github.com/ragavendran30/fsd-05-js#readme"
+}

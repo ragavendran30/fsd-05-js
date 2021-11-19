@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <video src="video-1.mp4" width="1000" id="main-video" controls></video>
+    <div>
+      <button id="play">play</button>
+      <button id="pause">pause</button>
+      <button id="f10">10sec forward</button>
+      <button id="b10">10sec backward</button>
+      <button id="volume-up">volume up</button>
+      <button id="volume-down">volume down</button>
+      <button id="mute">mute</button>
+      <button id="unmute">unmute</button>
+      <button id="download">download</button>
+      <button id="swap">swap video Quality</button>
+      <button id="full-screen">full screen</button>
+    </div>
+    <div>
+      <input type="range" id="volume-slider" name="volume" min="0" max="100">
+      <label for="volume">Volume</label>
+      <button id="volume">update volume</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
