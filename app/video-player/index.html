@@ -18,9 +18,13 @@
       <button id="mute">mute</button>
       <button id="unmute">unmute</button>
       <button id="download">download</button>
-      <button id="swap">swap video Quality</button>
+      <select id="swap">
+        <option value="video-1.mp4">720dpi</option>
+        <option value="video-2.mp4">360dpi</option>
+      </select>
       <button id="full-screen">full screen</button>
     </div>
+    <a href="video-1.mp4" download="video-1.mp4">download me</a>
     <div>
       <input type="range" id="volume-slider" name="volume" min="0" max="100">
       <label for="volume">Volume</label>

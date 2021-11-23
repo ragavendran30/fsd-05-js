@@ -61,11 +61,28 @@ let playBtn = document.getElementById('play'),
 
     }    
     function download(){
-        console.log('download');
+        //get file path
+        let filePath = video.getAttribute('src');
+
+
+        //download the file in browser
+        console.log('filePath');
     }
     function swap(){
-        console.log('swap');
-        
+        //requirement on select box change,update video path of the video palyer based on selected option
+
+        //get select value
+        let targetPath = this.value;
+        cTime = video.currentTime
+
+        //change the file value of the attribute
+        video.setAttribute('src', targetPath);
+
+        //change current time
+        video.currentTime = cTime;
+
+        //play the vdeo
+        play();
     }
     function fullScreen(){
         console.log('fullScreen');
@@ -80,7 +97,7 @@ let playBtn = document.getElementById('play'),
     muteBtn.addEventListener('click', mute);
     unmuteBtn.addEventListener('click', unmute);
     downloadBtn.addEventListener('click', download);
-    swapBtn.addEventListener('click', swap);
+    swapBtn.addEventListener('change', swap);
     fullScreenBtn.addEventListener('click', fullScreen);
     
     

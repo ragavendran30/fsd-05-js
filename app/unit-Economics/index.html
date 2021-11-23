@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            margin-bottom: 20px;
+        }
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Unit Economics</h1>
+    <form action="" id="unit-economics-form">
+        <div>
+            <label for="">selling price (A)</label>
+            <input type="number" name="" id="selling-price" value="0">
+        </div>
+        <div>
+            <label for="">cogs (cost of goods sold) (B)</label>
+            <input type="number" name="" id="cogs" value="0">
+        </div>
+        <div>
+            <label for="">gross margin(C = A-B)</label>
+            <input type="number" name="" id="gross-margin" disabled value="0">
+        </div>
+        <div>
+            <label for="">sales & Marketing(D)</label>
+            <input type="number" name="" id="sales-marketing" value="0">
+        </div>
+        <div>
+            <label for="">operation cost(E)</label>
+            <input type="number" name="" id="operation-cost" value="0">
+        </div>
+        <div>
+            <label for="">Net margin (F = C-D-E)</label>
+            <input type="number" name="" id="net-margin" disabled value="0">
+        </div>
+        <div>
+            <input type="button" name="" id="calculate" value="calculate">
+        </div>
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>
