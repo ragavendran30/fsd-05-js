@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .page-container{
+            width: 500px;
+            margin: auto;
+        }
+        ol{
+            list-style-position: inside;
+            padding: 0;
+            margin: 0;
+        }
+        ol li,
+        .form-wrapper{
+            padding: 10px;
+            border: solid 1px rgb(44, 127, 148);
+
+        }
+        .form-wrapper{
+            text-align: center;
+        }
+        .done{
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+<body>
+    <div class="page-container">
+        <div class="form-wrapper">
+            <form action="" id="todo-form">
+                <input type="text" name="" id="todo-task" placeholder="enter the task">
+                <input type="submit" value="app/update">
+            </form>
+        </div>
+            <ol id="task-container">
+                <li>
+                    <span class="done">take class for fsd</span>
+                    <a href="#" class="done-btn">Done</a>
+                    <a href="#" class="edit-btn">Edit</a>
+                    <a href="#" class="delete-btn">Delete</a>
+                </li>
+            </ol>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
